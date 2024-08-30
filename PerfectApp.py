@@ -203,6 +203,7 @@ def relancer_le_jeu(data_path):
                 replay_action = get_prompt("Voulez-vous inserer à nouveau  [Y-N] ")
             if replay_action in ('n','no'):
                 is_launch = True 
+                
 if __name__ == '__main__': 
     print(output_information(f"Jouez et concevez votre propre Quiz \nEntrer : \nY - Pour jouer \nN - Pour concevoir vos Quiz")) 
     if get_prompt("Would you want to provide your own json file ? ") in ("y","yes") : 
